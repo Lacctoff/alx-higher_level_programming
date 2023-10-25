@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 import math
 
+"""Class Square that defines a square object"""
+
 
 class MagicClass:
 
