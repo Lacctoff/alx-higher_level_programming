@@ -1,15 +1,19 @@
 #!/usr/bin/python3
 
-"""Class Square that defines a square object"""
+"""Define classes  for a singly-linked list."""
 
 
 class Node:
+    """Define classes  for a singly-linked list."""
+
     def __init__(self, data, next_node=None):
+        """Define classes  for a singly-linked list."""
         self.data = data
         self.next_node = next_node
 
     @property
     def data(self):
+        """Define classes  for a singly-linked list."""
         return self.__data
 
     @data.setter
@@ -20,6 +24,7 @@ class Node:
 
     @property
     def next_node(self):
+        """Define classes  for a singly-linked list."""
         return self.__next_node
 
     @next_node.setter
@@ -30,7 +35,10 @@ class Node:
 
 
 class SinglyLinkedList:
+    """Define classes  for a singly-linked list."""
+
     def __str__(self):
+        """Define classes  for a singly-linked list."""
         rtn = ""
         ptr = self.__head
 
@@ -43,9 +51,11 @@ class SinglyLinkedList:
         return rtn
 
     def __init__(self):
+        """Define classes  for a singly-linked list."""
         self.__head = None
 
     def sorted_insert(self, value):
+        """Define classes  for a singly-linked list."""
         ptr = self.__head
 
         while ptr is not None:
